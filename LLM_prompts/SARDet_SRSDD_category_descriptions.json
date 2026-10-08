@@ -1,0 +1,610 @@
+{
+  "ship": {
+    "templates": [
+      "A remote sensing image of a ship.",
+      "An aerial photograph showing a ship.",
+      "A satellite image containing a ship.",
+      "A high altitude photo that includes a ship.",
+      "An orthographic aerial image of a ship.",
+      "A remote sensing picture featuring a ship.",
+      "An aerial perspective of a ship from above."
+    ],
+    "llm": [
+      "A ship appears as a distinct, elongated shape with a uniform color, often surrounded by a slight wake in the water.",
+      "A ship appears as a streamlined, elongated structure with varying decks and possibly visible cargo containers or features.",
+      "A ship appears as a distinct, elongated shape with a bright or dark tone, depending on the sensor and water conditions.",
+      "Large, elongated structure with a distinct bow and stern, often surrounded by wakes.",
+      "Large vessel, white hull, moving through blue ocean, leaving visible wake, containers stacked on deck.",
+      "Large, elongated structure with distinct hull, superstructure, and often visible deck equipment or cargo."
+    ]
+  },
+  "aircraft": {
+    "templates": [
+      "A remote sensing image of a aircraft.",
+      "An aerial photograph showing a aircraft.",
+      "A satellite image containing a aircraft.",
+      "A high altitude photo that includes a aircraft.",
+      "An orthographic aerial image of a aircraft.",
+      "A remote sensing picture featuring a aircraft.",
+      "An aerial perspective of a aircraft from above."
+    ],
+    "llm": [
+      "Aircraft appears as a small, distinct, linear or cross-shaped object, often with visible wings and tail, on the tarmac or in flight.",
+      "Aircraft appears as a streamlined shape with wings, tail, and often visible engines, moving along defined flight paths.",
+      "Aircraft appears as a small, distinct, often linear or cross-shaped object on runways or taxiways.",
+      "Aircraft appears as a small, distinct, linear object with two wings and a tail.",
+      "Aircraft appears as a small, distinct, white silhouette with wings and tail clearly visible against darker ground.",
+      "Wings, fuselage, tail, engines, possibly landing gear, and distinct aircraft shape."
+    ]
+  },
+  "car": {
+    "templates": [
+      "A remote sensing image of a car.",
+      "An aerial photograph showing a car.",
+      "A satellite image containing a car.",
+      "A high altitude photo that includes a car.",
+      "An orthographic aerial image of a car.",
+      "A remote sensing picture featuring a car.",
+      "An aerial perspective of a car from above."
+    ],
+    "llm": [
+      "Compact, rectangular shape with distinct edges, often featuring a lighter roof and darker body, surrounded by a network of roads.",
+      "Compact, rectangular shape with rounded edges, featuring a windshield and distinct roof.",
+      "A car appears as a small, rectangular object with a distinct shadow, often on roads or in parking areas.",
+      "Rectangular object with distinct shape, often white or metallic, surrounded by roads or parking lots.",
+      "Compact, metallic object with four circular features, likely a car, in a defined parking space.",
+      "Rectangular shape, four wheels, reflective surfaces, and distinct shadow indicating height."
+    ]
+  },
+  "tank": {
+    "templates": [
+      "A remote sensing image of a tank.",
+      "An aerial photograph showing a tank.",
+      "A satellite image containing a tank.",
+      "A high altitude photo that includes a tank.",
+      "An orthographic aerial image of a tank.",
+      "A remote sensing picture featuring a tank.",
+      "An aerial perspective of a tank from above."
+    ],
+    "llm": [
+      "Large, rectangular vehicle with distinct tracks, turret, and barrel, often in a military compound or open field.",
+      "Rectangular body with turret on top, tracks on sides, often in military camouflage.",
+      "A tank appears as a distinct, rectangular or oval-shaped object, often with a clear track pattern in high-resolution imagery.",
+      "Large, armored vehicle with distinct tracks and a turret-mounted gun.",
+      "Large, armored vehicle with tracks, turret, and cannon, in a static position within a clear, flat area.",
+      "Large, armored vehicle with turret, tracks, and distinct geometric shape."
+    ]
+  },
+  "bridge": {
+    "templates": [
+      "A remote sensing image of a bridge.",
+      "An aerial photograph showing a bridge.",
+      "A satellite image containing a bridge.",
+      "A high altitude photo that includes a bridge.",
+      "An orthographic aerial image of a bridge.",
+      "A remote sensing picture featuring a bridge.",
+      "An aerial perspective of a bridge from above."
+    ],
+    "llm": [
+      "Linear structure crossing water or land, often with visible supports and a distinct road or path connecting two areas.",
+      "A bridge appears as a linear structure connecting two land masses, often with visible supports and a distinct road pathway.",
+      "A bridge appears as a linear structure connecting two land masses, often over water, with distinct shadow and texture.",
+      "Narrow, linear structure crossing a water body, connecting two land masses.",
+      "Long, narrow structure spanning a river, connecting two land masses, with visible road and support pillars.",
+      "Long, narrow structure spanning water, with visible supports and connected roadways."
+    ]
+  },
+  "harbor": {
+    "templates": [
+      "A remote sensing image of a harbor.",
+      "An aerial photograph showing a harbor.",
+      "A satellite image containing a harbor.",
+      "A high altitude photo that includes a harbor.",
+      "An orthographic aerial image of a harbor.",
+      "A remote sensing picture featuring a harbor.",
+      "An aerial perspective of a harbor from above."
+    ],
+    "llm": [
+      "Harbor appears as a cluster of docks, boats, and geometric shapes surrounded by water, with roads and buildings nearby.",
+      "Docks, ships, and waterways form a bustling network, surrounded by urban or industrial landscapes.",
+      "A harbor appears as a sheltered area with docks, ships, and often surrounded by urban or industrial development.",
+      "Cluster of docks, ships, and structures along a coastline.",
+      "Ships docked at quays, cranes loading cargo, waterways busy with vessels, surrounded by urban or industrial landscapes.",
+      "Ships, docks, water, buildings, and roads surrounding a body of water."
+    ]
+  },
+  "small-vehicle": {
+    "templates": [
+      "A remote sensing image of a small-vehicle.",
+      "An aerial photograph showing a small-vehicle.",
+      "A satellite image containing a small-vehicle.",
+      "A high altitude photo that includes a small-vehicle.",
+      "An orthographic aerial image of a small-vehicle.",
+      "A remote sensing picture featuring a small-vehicle.",
+      "An aerial perspective of a small-vehicle from above."
+    ],
+    "llm": [
+      "Compact, rectangular shape with a distinct shadow, often appearing as a small, bright rectangle on roads or in parking lots.",
+      "Compact shape, typically rectangular, with visible roof, windows, and distinct shadow, often in parking lots or on roads.",
+      "Small vehicle appears as a compact, rectangular shape with a distinct shadow, often on roads or in parking areas.",
+      "Compact, rectangular object with distinct shadow, typically 4-6 meters in length.",
+      "Compact, rectangular object with distinct shadow, likely a car or small truck, parked in defined space.",
+      "Compact shape, distinct shadow, reflective surface, likely with identifiable roof and windows."
+    ]
+  },
+  "large-vehicle": {
+    "templates": [
+      "A remote sensing image of a large-vehicle.",
+      "An aerial photograph showing a large-vehicle.",
+      "A satellite image containing a large-vehicle.",
+      "A high altitude photo that includes a large-vehicle.",
+      "An orthographic aerial image of a large-vehicle.",
+      "A remote sensing picture featuring a large-vehicle.",
+      "An aerial perspective of a large-vehicle from above."
+    ],
+    "llm": [
+      "Large, rectangular shape with distinct edges, often surrounded by a parking lot or roads, and may show a shadow depending on lighting.",
+      "Large vehicle appears as a rectangular shape with distinct color, often showing roof, windows, and sometimes trailer or cargo area.",
+      "A large vehicle appears as a distinct, rectangular shape with a high reflectance, often surrounded by a lower reflectance area.",
+      "Large, rectangular object with distinct shape, often surrounded by smaller vehicles in parking lots or industrial areas.",
+      "Large vehicle, rectangular shape, likely a truck or bus, visible in the center with a clear road connection.",
+      "Large, rectangular shape with distinct edges, likely metallic, and a defined path or road nearby."
+    ]
+  },
+  "plane": {
+    "templates": [
+      "A remote sensing image of a plane.",
+      "An aerial photograph showing a plane.",
+      "A satellite image containing a plane.",
+      "A high altitude photo that includes a plane.",
+      "An orthographic aerial image of a plane.",
+      "A remote sensing picture featuring a plane.",
+      "An aerial perspective of a plane from above."
+    ],
+    "llm": [
+      "Small, elongated shape with distinct wings and tail, often casting a shadow, visible on runways or in flight paths.",
+      "A plane from above appears as a streamlined, elongated shape with wings extending outward, tail at the rear.",
+      "A plane appears as a small, distinct, often linear or cross-shaped object on the tarmac or in flight paths.",
+      "Rectangular fuselage with two wings, visible tail, and often parked or moving on runways.",
+      "White commercial airliner, wings spread, taxiing on airport runway, tail and fuselage clearly visible.",
+      "Wings, fuselage, tail, and engines clearly visible; parked on tarmac near terminal."
+    ]
+  },
+  "Ship": {
+    "templates": [
+      "A remote sensing image of a Ship.",
+      "An aerial photograph showing a Ship.",
+      "A satellite image containing a Ship.",
+      "A high altitude photo that includes a Ship.",
+      "An orthographic aerial image of a Ship.",
+      "A remote sensing picture featuring a Ship.",
+      "An aerial perspective of a Ship from above."
+    ],
+    "llm": [
+      "Large, elongated structure with distinct outline, often white or gray, visible wake in water, surrounded by uniform sea texture.",
+      "Large, elongated structure with a pointed bow, varying superstructures, and often visible wake in the water.",
+      "A ship appears as a distinct, elongated shape with a bright or shadowed outline, depending on the lighting and sensor type.",
+      "Large, elongated structure with a distinct hull, often surrounded by wakes in water.",
+      "Large vessel with streamlined hull, visible deck structures, and wake trailing behind as it moves through the water.",
+      "Large, elongated structure with distinct hull, superstructure, and often visible wake in water."
+    ]
+  },
+  "Harbor": {
+    "templates": [
+      "A remote sensing image of a Harbor.",
+      "An aerial photograph showing a Harbor.",
+      "A satellite image containing a Harbor.",
+      "A high altitude photo that includes a Harbor.",
+      "An orthographic aerial image of a Harbor.",
+      "A remote sensing picture featuring a Harbor.",
+      "An aerial perspective of a Harbor from above."
+    ],
+    "llm": [
+      "Large, irregularly shaped water body with docks, surrounded by urban or industrial areas, often with ships and boats visible.",
+      "Docks, ships, and waterways form a bustling network, surrounded by industrial and storage facilities.",
+      "A harbor appears as a sheltered water area with docks, surrounded by urban or industrial features and connected to the sea.",
+      "Cluster of docks, ships, and structures along a sheltered coastal area.",
+      "Ships docked, cranes loading, waterways busy, buildings line the shore, vehicles and containers populate the area.",
+      "Docks, ships, waterways, storage containers, and adjacent industrial or urban areas."
+    ]
+  },
+  "tennis-court": {
+    "templates": [
+      "A remote sensing image of a tennis-court.",
+      "An aerial photograph showing a tennis-court.",
+      "A satellite image containing a tennis-court.",
+      "A high altitude photo that includes a tennis-court.",
+      "An orthographic aerial image of a tennis-court.",
+      "A remote sensing picture featuring a tennis-court.",
+      "An aerial perspective of a tennis-court from above."
+    ],
+    "llm": [
+      "Rectangular shape, typically green with white lines marking boundaries and service boxes, surrounded by a fence or open space.",
+      "Rectangular shape, divided by a net, with distinct lines marking boundaries and service boxes.",
+      "A rectangular area, often with distinct color contrasts and marked lines, surrounded by a uniform or slightly varied background.",
+      "Rectangular area with distinct lines, often surrounded by fencing and nearby recreational facilities.",
+      "Rectangular area, typically green, marked by white lines, with a net dividing it into two equal halves.",
+      "Rectangular shape, marked lines, two smaller squares at ends, often surrounded by fencing."
+    ]
+  },
+  "soccer-ball-field": {
+    "templates": [
+      "A remote sensing image of a soccer-ball-field.",
+      "An aerial photograph showing a soccer-ball-field.",
+      "A satellite image containing a soccer-ball-field.",
+      "A high altitude photo that includes a soccer-ball-field.",
+      "An orthographic aerial image of a soccer-ball-field.",
+      "A remote sensing picture featuring a soccer-ball-field.",
+      "An aerial perspective of a soccer-ball-field from above."
+    ],
+    "llm": [
+      "Rectangular green area, marked by white lines forming a large rectangle with a center circle and two smaller rectangles at ends.",
+      "Rectangular green field, white lines marking boundaries, center circle, and two goals at opposite ends.",
+      "A rectangular area with distinct, often green, boundaries and a central, possibly lighter, circular marking.",
+      "Rectangular green area with white markings, surrounded by a track or open space.",
+      "Rectangular green area, white markings define boundaries and center, two goals at opposite ends.",
+      "Rectangular green field, white markings for boundaries and center, two goals at opposite ends."
+    ]
+  },
+  "ground-track-field": {
+    "templates": [
+      "A remote sensing image of a ground-track-field.",
+      "An aerial photograph showing a ground-track-field.",
+      "A satellite image containing a ground-track-field.",
+      "A high altitude photo that includes a ground-track-field.",
+      "An orthographic aerial image of a ground-track-field.",
+      "A remote sensing picture featuring a ground-track-field.",
+      "An aerial perspective of a ground-track-field from above."
+    ],
+    "llm": [
+      "Oval-shaped, distinct lanes visible, often surrounded by a grassy area, with clear markings and sometimes a central field.",
+      "Parallel lines and curves, often in a loop, with distinct lanes and sometimes hurdles or pits visible.",
+      "Ground-track-field appears as a series of parallel, evenly spaced lines or strips, often with varying shades indicating use intensity.",
+      "Circular or oval-shaped area with distinct lanes and a central field, often surrounded by seating.",
+      "Circular track encircling green field, with lanes marked, and a central area for field events, surrounded by open space.",
+      "Circular track, central field, distinct lanes, surrounding greenery, clear markings."
+    ]
+  },
+  "baseball-diamond": {
+    "templates": [
+      "A remote sensing image of a baseball-diamond.",
+      "An aerial photograph showing a baseball-diamond.",
+      "A satellite image containing a baseball-diamond.",
+      "A high altitude photo that includes a baseball-diamond.",
+      "An orthographic aerial image of a baseball-diamond.",
+      "A remote sensing picture featuring a baseball-diamond.",
+      "An aerial perspective of a baseball-diamond from above."
+    ],
+    "llm": [
+      "A symmetrical, diamond-shaped layout with four bases, surrounded by a circular outfield, often with visible baselines and pitcher's mound.",
+      "A symmetrical diamond shape with four bases, a central pitcher's mound, and an outfield boundary.",
+      "A baseball diamond appears as a distinct geometric shape with four bases forming a square, surrounded by an oval or circle.",
+      "Four-cornered diamond shape with a central square, surrounded by a circular outfield.",
+      "Four bases form a diamond, surrounded by an outfield, with clear infield and distinct lines marking the field's boundaries.",
+      "Four bases form a diamond, surrounded by an outfield, often with a central grassy area."
+    ]
+  },
+  "swimming-pool": {
+    "templates": [
+      "A remote sensing image of a swimming-pool.",
+      "An aerial photograph showing a swimming-pool.",
+      "A satellite image containing a swimming-pool.",
+      "A high altitude photo that includes a swimming-pool.",
+      "An orthographic aerial image of a swimming-pool.",
+      "A remote sensing picture featuring a swimming-pool.",
+      "An aerial perspective of a swimming-pool from above."
+    ],
+    "llm": [
+      "Rectangular or irregular blue shape, often with a light-colored border, surrounded by patio or greenery.",
+      "Rectangular or irregular blue shape, surrounded by light-colored deck, often with furniture and sometimes covered.",
+      "A swimming pool appears as a distinct, often rectangular, blue or turquoise shape, surrounded by lighter-colored deck areas.",
+      "Rectangular blue area, often with a lighter-colored surrounding patio and nearby structures.",
+      "Rectangular blue shape, surrounded by light-colored patio, with possible furniture and people visible, in a residential backyard setting.",
+      "Rectangular blue area, surrounded by light-colored patio, with nearby lounge chairs and umbrellas."
+    ]
+  },
+  "roundabout": {
+    "templates": [
+      "A remote sensing image of a roundabout.",
+      "An aerial photograph showing a roundabout.",
+      "A satellite image containing a roundabout.",
+      "A high altitude photo that includes a roundabout.",
+      "An orthographic aerial image of a roundabout.",
+      "A remote sensing picture featuring a roundabout.",
+      "An aerial perspective of a roundabout from above."
+    ],
+    "llm": [
+      "Circular road intersection with paths radiating out, often featuring a central landscaped area or roundabout island.",
+      "Circular road junction with vehicles moving clockwise around a central island, typically landscaped.",
+      "A roundabout appears as a circular road intersection, often with a central island and multiple entry/exit points.",
+      "Circular road intersection with multiple exits, often featuring a central island.",
+      "Circular road intersection with multiple exits, surrounded by greenery, clearly visible as a distinct round shape in the image.",
+      "Circular road junction with central island, surrounded by connecting roads and greenery."
+    ]
+  },
+  "basketball-court": {
+    "templates": [
+      "A remote sensing image of a basketball-court.",
+      "An aerial photograph showing a basketball-court.",
+      "A satellite image containing a basketball-court.",
+      "A high altitude photo that includes a basketball-court.",
+      "An orthographic aerial image of a basketball-court.",
+      "A remote sensing picture featuring a basketball-court.",
+      "An aerial perspective of a basketball-court from above."
+    ],
+    "llm": [
+      "Rectangular area, often outdoors, with distinct lines marking boundaries, key, and three-point arc, surrounded by a larger open space.",
+      "Rectangular shape, marked lines for boundaries and play zones, two visible hoops at each end.",
+      "A rectangular area with distinct lines and markings, often surrounded by a larger, less defined boundary.",
+      "Rectangular area with distinct lines, often surrounded by a fence, and may include hoops.",
+      "Rectangular area with distinct lines forming a playing zone, often surrounded by a fence or open space.",
+      "Rectangular court, clear markings, two hoops, often surrounded by a fence or open space."
+    ]
+  },
+  "storage-tank": {
+    "templates": [
+      "A remote sensing image of a storage-tank.",
+      "An aerial photograph showing a storage-tank.",
+      "A satellite image containing a storage-tank.",
+      "A high altitude photo that includes a storage-tank.",
+      "An orthographic aerial image of a storage-tank.",
+      "A remote sensing picture featuring a storage-tank.",
+      "An aerial perspective of a storage-tank from above."
+    ],
+    "llm": [
+      "Circular or cylindrical structure, often with a domed top, appearing as a solid, uniform color in satellite imagery.",
+      "Circular or cylindrical structure, often with a domed top, varying in size, typically white or metallic.",
+      "Circular or cylindrical structures, often with a bright, reflective surface and surrounded by a darker shadow.",
+      "Large, circular structure with a domed or flat top, often surrounded by pipelines.",
+      "Large, circular structure with a domed top, surrounded by a containment dike, in an industrial area.",
+      "Circular structure, metallic surface, shadows indicating height, surrounded by security fencing."
+    ]
+  },
+  "Bridge": {
+    "templates": [
+      "A remote sensing image of a Bridge.",
+      "An aerial photograph showing a Bridge.",
+      "A satellite image containing a Bridge.",
+      "A high altitude photo that includes a Bridge.",
+      "An orthographic aerial image of a Bridge.",
+      "A remote sensing picture featuring a Bridge.",
+      "An aerial perspective of a Bridge from above."
+    ],
+    "llm": [
+      "Linear structure crossing water, often with visible supports; distinct from surrounding landscape by its straight or curved path.",
+      "A bridge appears as a narrow, linear structure connecting two land masses, often with visible supports or arches.",
+      "A bridge appears as a linear structure connecting two land masses, often over water, with distinct shadow and tonal variations.",
+      "Linear structure crossing water or land, connecting two points.",
+      "Long, narrow structure spanning a body of water, connecting two landmasses, with visible supports and traffic flow.",
+      "Long, linear structure spanning water, with supports; connects two land masses."
+    ]
+  },
+  "helicopter": {
+    "templates": [
+      "A remote sensing image of a helicopter.",
+      "An aerial photograph showing a helicopter.",
+      "A satellite image containing a helicopter.",
+      "A high altitude photo that includes a helicopter.",
+      "An orthographic aerial image of a helicopter.",
+      "A remote sensing picture featuring a helicopter.",
+      "An aerial perspective of a helicopter from above."
+    ],
+    "llm": [
+      "Compact, distinct shape with a circular rotor on top, often casting a shadow, visible in high-resolution satellite imagery.",
+      "Rotating blades, fuselage with cockpit and tail boom, often with a tail rotor.",
+      "A helicopter appears as a small, distinct, often circular or oval shape with a cross-like pattern for the rotor blades.",
+      "Rotary-wing aircraft with a distinct circular shadow and tail boom.",
+      "Compact, rotor-driven aircraft with distinct circular shadow, parked or stationary on a clear, flat surface.",
+      "Rotary wings, fuselage, tail boom, and landing skids; often with a distinct shadow."
+    ]
+  },
+  "CAR": {
+    "templates": [
+      "A remote sensing image of a CAR.",
+      "An aerial photograph showing a CAR.",
+      "A satellite image containing a CAR.",
+      "A high altitude photo that includes a CAR.",
+      "An orthographic aerial image of a CAR.",
+      "A remote sensing picture featuring a CAR.",
+      "An aerial perspective of a CAR from above."
+    ],
+    "llm": [
+      "Rectangular shape, typically 4-5 meters long, with distinguishable roof, windows, and sometimes shadow, depending on the lighting.",
+      "Compact, rectangular shape with distinguishable roof, windows, and often a sunroof or antenna.",
+      "A car appears as a small, rectangular object with a distinct shape, often in parking lots or on roads.",
+      "Rectangular object with distinct roof, often in parking lots or on roads.",
+      "Rectangular object with distinct shape, often white or metallic, featuring a clear outline and sometimes shadow, parked or moving on roads.",
+      "Rectangular shape, distinct shadow, reflective surfaces, four circular wheels, often in parking lots or roads."
+    ]
+  },
+  "BUS": {
+    "templates": [
+      "A remote sensing image of a BUS.",
+      "An aerial photograph showing a BUS.",
+      "A satellite image containing a BUS.",
+      "A high altitude photo that includes a BUS.",
+      "An orthographic aerial image of a BUS.",
+      "A remote sensing picture featuring a BUS.",
+      "An aerial perspective of a BUS from above."
+    ],
+    "llm": [
+      "Rectangular, elongated shape with a consistent color, often seen near roads or stops, slightly larger than surrounding vehicles.",
+      "Rectangular shape with a longer body, visible windows along sides, and typically a lighter roof.",
+      "A bus appears as a long, rectangular shape with a consistent, often bright, color and may show a slight shadow.",
+      "Large, rectangular vehicle with a distinct, elongated shape and often visible roof detail.",
+      "Large rectangular vehicle, typically white or colored, with windows along sides and a distinct roof shape.",
+      "Large rectangular vehicle, distinct roof, windows in rows, often with company logos or colors."
+    ]
+  },
+  "FERIGHT_CAR": {
+    "templates": [
+      "A remote sensing image of a FERIGHT_CAR.",
+      "An aerial photograph showing a FERIGHT_CAR.",
+      "A satellite image containing a FERIGHT_CAR.",
+      "A high altitude photo that includes a FERIGHT_CAR.",
+      "An orthographic aerial image of a FERIGHT_CAR.",
+      "A remote sensing picture featuring a FERIGHT_CAR.",
+      "An aerial perspective of a FERIGHT_CAR from above."
+    ],
+    "llm": [
+      "Compact, rectangular shape with a distinct, lighter roof and darker body, often near roads or in parking lots.",
+      "Compact, rectangular shape with a visible roof, windows, and distinct shadow, often in parking lots or on roads.",
+      "FERIGHT_CAR appears as a small, rectangular object, often in parking lots or on roads, with a distinct shadow.",
+      "Compact, rectangular object with distinguishable roof, hood, and often shadow indicating height.",
+      "Compact, rectangular object with visible roof, windows, and shadow, parked in a defined space.",
+      "Compact, rectangular shape with distinct roof, windows, and shadow indicating height."
+    ]
+  },
+  "TRUCK": {
+    "templates": [
+      "A remote sensing image of a TRUCK.",
+      "An aerial photograph showing a TRUCK.",
+      "A satellite image containing a TRUCK.",
+      "A high altitude photo that includes a TRUCK.",
+      "An orthographic aerial image of a TRUCK.",
+      "A remote sensing picture featuring a TRUCK.",
+      "An aerial perspective of a TRUCK from above."
+    ],
+    "llm": [
+      "Rectangular, often with a distinct cab and longer cargo area, appearing as a single or double unit.",
+      "Rectangular shape, varying sizes, with a cab and cargo area, often with a trailer attached.",
+      "A truck appears as a rectangular shape, often with a distinct cab and longer cargo section, in varying sizes.",
+      "Large, rectangular vehicle with a cargo area, often parked or moving on roads.",
+      "Large, rectangular vehicle with distinct cargo area, visible in high-resolution satellite imagery, often parked or moving on roads.",
+      "Large, rectangular vehicle with distinct cargo area, identifiable by size and shape in structured settings."
+    ]
+  },
+  "VAN": {
+    "templates": [
+      "A remote sensing image of a VAN.",
+      "An aerial photograph showing a VAN.",
+      "A satellite image containing a VAN.",
+      "A high altitude photo that includes a VAN.",
+      "An orthographic aerial image of a VAN.",
+      "A remote sensing picture featuring a VAN.",
+      "An aerial perspective of a VAN from above."
+    ],
+    "llm": [
+      "Rectangular, medium-sized vehicle with a boxy rear section, typically white or metallic, and a smaller, more sloped front.",
+      "Rectangular shape, typically larger than a car, with a boxy rear section for cargo.",
+      "A VAN appears as a medium-sized, rectangular object, often with a distinct, slightly elongated profile compared to cars.",
+      "Rectangular vehicle, typically larger than a car, with a boxy cargo area.",
+      "Rectangular vehicle, typically white, with a longer body than a car, and a sliding door on one side.",
+      "Rectangular shape, typically white or metallic, with a longer body than a car, and a sliding door on the side."
+    ]
+  },
+  "ore-oil ship": {
+    "templates": [
+      "A remote sensing image of an ore-oil ship.",
+      "An aerial photograph showing an ore-oil ship.",
+      "A satellite image containing an ore-oil ship.",
+      "A high altitude photo that includes an ore-oil ship.",
+      "An orthographic aerial image of an ore-oil ship.",
+      "A remote sensing picture featuring an ore-oil ship.",
+      "An aerial perspective of an ore-oil ship from above."
+    ],
+    "llm": [
+      "Large, elongated structure with a distinct hull, often showing white or light-colored superstructure and deck features.",
+      "Large, elongated vessel with a wide midsection, typically white or light-colored, featuring multiple deck structures and cargo tanks.",
+      "Large, elongated vessel with distinct rectangular tanks and a prominent superstructure near the center.",
+      "Large, elongated vessel with multiple cargo tanks and a distinct superstructure.",
+      "Large, elongated vessel with multiple cargo tanks, visible piping, and a distinctive superstructure near the bow.",
+      "Large, elongated structure with distinct compartments, typically white or light-colored, and visible pipeline connections."
+    ]
+  },
+  "Container ship": {
+    "templates": [
+      "A remote sensing image of a Container ship.",
+      "An aerial photograph showing a Container ship.",
+      "A satellite image containing a Container ship.",
+      "A high altitude photo that includes a Container ship.",
+      "An orthographic aerial image of a Container ship.",
+      "A remote sensing picture featuring a Container ship.",
+      "An aerial perspective of a Container ship from above."
+    ],
+    "llm": [
+      "Large, rectangular vessel with a uniform, solid color, featuring a row of containers stacked on deck.",
+      "Large, rectangular vessel with stacked colorful containers, surrounded by deck space and navigation structures.",
+      "Large, rectangular vessel with a uniform, grid-like pattern of containers on deck.",
+      "Large vessel with rectangular cargo containers stacked on deck, navigating ocean routes.",
+      "Large vessel with stacked cargo containers, navigating ocean waters, visible wake, distinct rectangular shape.",
+      "Large, rectangular vessel with stacked cargo containers, visible deck structures, and a single, streamlined superstructure."
+    ]
+  },
+  "Fishing ship": {
+    "templates": [
+      "A remote sensing image of a Fishing ship.",
+      "An aerial photograph showing a Fishing ship.",
+      "A satellite image containing a Fishing ship.",
+      "A high altitude photo that includes a Fishing ship.",
+      "An orthographic aerial image of a Fishing ship.",
+      "A remote sensing picture featuring a Fishing ship.",
+      "An aerial perspective of a Fishing ship from above."
+    ],
+    "llm": [
+      "Fishing ship appears as a small, distinct white or gray shape, often with a wake trailing behind in the water.",
+      "Fishing ship: elongated hull, often with a wide stern, visible nets or gear, and typically smaller than cargo vessels.",
+      "Fishing ship: elongated, white or gray vessel, often with a distinct shadow and visible fishing gear.",
+      "Large vessel with distinct hull, often seen near coastlines, possibly with visible fishing gear.",
+      "Large vessel with a distinctive hull, visible nets or gear, often surrounded by smaller boats in open water.",
+      "Large vessel, distinct hull, often with nets or fishing gear visible, typically white or light-colored."
+    ]
+  },
+  "LawEnforce ship": {
+    "templates": [
+      "A remote sensing image of a LawEnforce ship.",
+      "An aerial photograph showing a LawEnforce ship.",
+      "A satellite image containing a LawEnforce ship.",
+      "A high altitude photo that includes a LawEnforce ship.",
+      "An orthographic aerial image of a LawEnforce ship.",
+      "A remote sensing picture featuring a LawEnforce ship.",
+      "An aerial perspective of a LawEnforce ship from above."
+    ],
+    "llm": [
+      "White vessel, streamlined design, with distinct law enforcement markings and possibly a helipad, docked or patrolling coastal waters.",
+      "White or blue vessel, with distinct law enforcement markings and possibly a helicopter pad.",
+      "LawEnforce ship: medium-sized, distinct white hull, blue markings, often docked or patrolling coastal waters.",
+      "White vessel with blue stripes, marked \"POLICE,\" and equipped with multiple antennas.",
+      "White vessel, streamlined design, marked \"LawEnforce,\" with visible radar dome and patrol lights.",
+      "White vessel, blue stripes, marked \"LawEnforce,\" with radar dome and multiple antennas."
+    ]
+  },
+  "Dredger": {
+    "templates": [
+      "A remote sensing image of a Dredger.",
+      "An aerial photograph showing a Dredger.",
+      "A satellite image containing a Dredger.",
+      "A high altitude photo that includes a Dredger.",
+      "An orthographic aerial image of a Dredger.",
+      "A remote sensing picture featuring a Dredger.",
+      "An aerial perspective of a Dredger from above."
+    ],
+    "llm": [
+      "A dredger appears as a large, distinct vessel with visible sediment plumes in surrounding waters.",
+      "A dredger appears as a large, often rectangular vessel with visible excavation equipment extending into the water.",
+      "A dredger appears as a large, often rectangular vessel with visible sediment plumes in the water nearby.",
+      "Large vessel with visible excavation equipment, often creating sediment plumes in water.",
+      "Large vessel with visible dredging equipment, creating sediment plumes in water, near coast or river.",
+      "Large vessel, visible pipeline, sediment plume in water, often near coast or in rivers."
+    ]
+  },
+  "Cell-Container shp": {
+    "templates": [
+      "A remote sensing image of a Cell-Container shp.",
+      "An aerial photograph showing a Cell-Container shp.",
+      "A satellite image containing a Cell-Container shp.",
+      "A high altitude photo that includes a Cell-Container shp.",
+      "An orthographic aerial image of a Cell-Container shp.",
+      "A remote sensing picture featuring a Cell-Container shp.",
+      "An aerial perspective of a Cell-Container shp from above."
+    ],
+    "llm": [
+      "Rectangular, uniform structures in a grid pattern, often with distinct, parallel lines and consistent coloration.",
+      "Rectangular structure, often with multiple sections, varying in size, arranged systematically.",
+      "A Cell-Container shape appears as a series of uniform, rectangular structures arranged in a grid pattern.",
+      "Large, rectangular structure with distinct compartments, often near ports or industrial areas.",
+      "Large, rectangular structure with a grid pattern, likely used for storage or housing in industrial or emergency settings.",
+      "Large, rectangular structure with distinct compartments, uniform color, located in industrial or port area."
+    ]
+  }
+}

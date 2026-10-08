@@ -1,0 +1,20 @@
+# Local datasets and experiment outputs
+/data/
+/pretrained/
+/work_dirs/
+
+# Generated archives and model artifacts
+*.zip
+*.pth
+*.pt
+*.pkl
+*.log
+*.log.json
+
+# Python caches and build outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/

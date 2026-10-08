@@ -1,0 +1,110 @@
+{
+  "ship": {
+    "templates": [
+      "a remote sensing image of ship",
+      "an overhead satellite image containing ship"
+    ]
+  },
+  "car": {
+    "templates": [
+      "a remote sensing image of car",
+      "an overhead satellite image containing car"
+    ]
+  },
+  "tank": {
+    "templates": [
+      "a remote sensing image of tank",
+      "an overhead satellite image containing tank"
+    ]
+  },
+  "bridge": {
+    "templates": [
+      "a remote sensing image of bridge",
+      "an overhead satellite image containing bridge"
+    ]
+  },
+  "harbor": {
+    "templates": [
+      "a remote sensing image of harbor",
+      "an overhead satellite image containing harbor"
+    ]
+  },
+  "aircraft": {
+    "templates": [
+      "a remote sensing image of aircraft",
+      "an overhead satellite image containing aircraft"
+    ]
+  },
+  "plane": {
+    "templates": [
+      "a remote sensing image of plane",
+      "an overhead satellite image containing plane"
+    ]
+  },
+  "baseball-diamond": {
+    "templates": [
+      "a remote sensing image of baseball-diamond",
+      "an overhead satellite image containing baseball-diamond"
+    ]
+  },
+  "ground-track-field": {
+    "templates": [
+      "a remote sensing image of ground-track-field",
+      "an overhead satellite image containing ground-track-field"
+    ]
+  },
+  "small-vehicle": {
+    "templates": [
+      "a remote sensing image of small-vehicle",
+      "an overhead satellite image containing small-vehicle"
+    ]
+  },
+  "large-vehicle": {
+    "templates": [
+      "a remote sensing image of large-vehicle",
+      "an overhead satellite image containing large-vehicle"
+    ]
+  },
+  "tennis-court": {
+    "templates": [
+      "a remote sensing image of tennis-court",
+      "an overhead satellite image containing tennis-court"
+    ]
+  },
+  "basketball-court": {
+    "templates": [
+      "a remote sensing image of basketball-court",
+      "an overhead satellite image containing basketball-court"
+    ]
+  },
+  "storage-tank": {
+    "templates": [
+      "a remote sensing image of storage-tank",
+      "an overhead satellite image containing storage-tank"
+    ]
+  },
+  "soccer-ball-field": {
+    "templates": [
+      "a remote sensing image of soccer-ball-field",
+      "an overhead satellite image containing soccer-ball-field"
+    ]
+  },
+  "roundabout": {
+    "templates": [
+      "a remote sensing image of roundabout",
+      "an overhead satellite image containing roundabout"
+    ]
+  },
+  "swimming-pool": {
+    "templates": [
+      "a remote sensing image of swimming-pool",
+      "an overhead satellite image containing swimming-pool"
+    ]
+  },
+  "helicopter": {
+    "templates": [
+      "a remote sensing image of helicopter",
+      "an overhead satellite image containing helicopter"
+    ]
+  }
+}

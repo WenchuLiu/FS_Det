@@ -1,0 +1,4 @@
+"""Compatibility entrypoint for the separate SAR/RGB schedules."""
+import fsdet_configs.schema as _schema
+
+_base_ = ['fsdet_finetune_60_' + _schema.ft_modality + '.py']
